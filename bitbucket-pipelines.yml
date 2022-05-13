@@ -1,0 +1,11 @@
+image: php:8.0-fpm
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          services:
+            - mysql
+          name: 'Building & Testing'
+          script:
+            - bash ./devops/build-server.sh

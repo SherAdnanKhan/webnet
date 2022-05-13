@@ -1,0 +1,20 @@
+<!--begin::Footer-->
+<div class="footer py-4 d-flex flex-lg-column {{ theme()->printHtmlClasses('footer', false) }}" id="kt_footer">
+	<!--begin::Container-->
+	<div class="{{ theme()->printHtmlClasses('footer-container', false) }} d-flex flex-column flex-md-row flex-stack">
+		<!--begin::Copyright-->
+		<div class="text-dark order-2 order-md-1">
+			<span class="text-gray-400 fw-bold me-1">Created by</span>
+			<a href="{{ theme()->getOption('general', 'website') }}" target="_blank" class="text-muted text-hover-primary fw-bold me-2 fs-6">Kepppenthemes</a>
+		</div>
+		<!--end::Copyright-->
+
+		<!--begin::Menu-->
+		<ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
+
+		</ul>
+		<!--end::Menu-->
+	</div>
+	<!--end::Container-->
+</div>
+<!--end::Footer-->
